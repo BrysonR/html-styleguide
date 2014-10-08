@@ -1,10 +1,10 @@
-# uShip HTML Style Guide 
+# uShip HTML Style Guide {
 
 ## <a name='TOC'>Table of Contents</a>
 
-	1. [Syntax](#syntax)
-	1. [Attributes](#attributes)
-	1. [License](#license)
+  1. [Syntax](#syntax)
+  1. [Attributes](#attributes)
+  1. [License](#license)
 
 ## <a name='syntax'>Syntax</a>
 
@@ -47,3 +47,5 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+}
