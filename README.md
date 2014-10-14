@@ -26,12 +26,14 @@
 	
 	```html
 	<!-- bad -->
-	<blockquote><p><em>Space</em>, the final frontier.</p></blockquote><ul><li>Moe<li>Larry<li>Curly</ul>
+	<blockquote><p>Space, the final frontier.</p></blockquote><ul><li>Moe<li>Larry<li>Curly</ul>
 	<table><thead><tr><th scope="col">Income<th scope="col">Taxes<tbody><tr><td>$ 5.00</td><td>$ 4.50</td></table>
 
 	<!-- good -->
 	<blockquote>
-	    <p><em>Space</em>, the final frontier.</p>
+	    <p>
+            Space, the final frontier.
+        </p>
 	</blockquote>
 	<ul>
 	    <li>Moe</li>
