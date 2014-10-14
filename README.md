@@ -1,4 +1,4 @@
-# uShip HTML Style Guide {
+# uShip HTML Style Guide <html>
 
 ## <a name='TOC'>Table of Contents</a>
 
@@ -7,6 +7,47 @@
   1. [License](#license)
 
 ## <a name='syntax'>Syntax</a>
+- Use tab/4-spaces to indent elements
+
+	```html
+	/* bad */
+	<div>
+	  <p>This is wrong</p>
+	</div>
+
+	/* good */
+	<div>
+		<p>This is right</p>
+	</div>
+	```
+
+-Use a new line for every block, list, or table element, and indent every such child element
+	
+	```html
+	/* bad */
+	<blockquote><p><em>Space</em>, the final frontier.</p></blockquote><ul><li>Moe<li>Larry<li>Curly</ul>
+	<table><thead><tr><th scope="col">Income<th scope="col">Taxes<tbody><tr><td>$ 5.00</td><td>$ 4.50</td></table>
+
+	/* good */
+	<blockquote>
+	  <p><em>Space</em>, the final frontier.</p>
+	</blockquote>
+	<ul>
+	  <li>Moe
+	  <li>Larry
+	  <li>Curly
+	</ul>
+	<table>
+	  <thead>
+	    <tr>
+	      <th scope="col">Income
+	      <th scope="col">Taxes
+	  <tbody>
+	    <tr>
+	      <td>$ 5.00
+	      <td>$ 4.50
+	</table>
+	```
 
 ## <a name='attributes'>Attributes</a>
 - Pay attention to element attribute order 
@@ -21,6 +62,16 @@
 
 	/* good */
 	<div id="test1" class="test" data-bind="text: 'This Is Text'"></div>
+	```
+
+- Use double quotations for attribute values
+
+	```html 
+	/* bad */
+	<button id='nav-toggle' type='button'>
+
+	/* good */
+	<button id="nav-toggle" type="button">
 	```
 
 ## <a name='license'>License</a>
@@ -48,4 +99,4 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-}
+</html>
