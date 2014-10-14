@@ -83,6 +83,7 @@
 	
 	<!-- good -->
 	<a href="recommendations/">All recommendations</a>
+	```
 
 ## <a name="attributes">Attributes</a>
 - Pay attention to element attribute order 
