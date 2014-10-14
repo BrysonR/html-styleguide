@@ -102,6 +102,48 @@
 
 ## <a name="semantics">Semantic Tags</a>
 
+```html
+    <!-- Supported Tags -->
+
+    <header></header>
+
+    <hgroup></hgroup>
+
+    <main></main>
+
+    <nav></nav>
+
+    <section></section>
+
+    <h*></h*>
+
+    <p></p>
+
+    <ul></ul>
+
+    <ol></ol>
+    
+    <dd></dd>
+    
+    <strong></strong>
+
+    <em></em>
+
+    <labels></labels>
+
+    <article></article>
+
+    <aside></aside>
+
+    <dialog></dialog>
+
+    <figcaption></figcaption>
+
+    <figure></figure>
+
+    <footer></footer>
+```
+
 ## <a name="license">License</a>
 
 (The MIT License)
