@@ -4,6 +4,7 @@
 
   1. [Syntax](#syntax)
   1. [Attributes](#attributes)
+  1. [Semantics](#semantics)
   1. [License](#license)
 
 ## <a name="syntax">Syntax</a>
@@ -97,6 +98,8 @@
 	<!-- good -->
 	<div id="test1" class="test" data-bind="text: 'This Is Text'"></div>
 	```
+
+## <a name="semantics">Semantic Tags</a>
 
 ## <a name="license">License</a>
 
