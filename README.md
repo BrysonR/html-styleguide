@@ -90,7 +90,7 @@
 
 	Order of basic attributes in element: 
 
-	id --> class --> data-bind
+	id &#8594; class &#8594; data-bind
 
 	```html
 	<!-- bad -->
