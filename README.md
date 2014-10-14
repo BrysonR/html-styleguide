@@ -21,7 +21,7 @@
 	</div>
 	```
 
--Use a new line for every block, list, or table element, and indent every such child element
+- Use a new line for every block, list, or table element, and indent every such child element
 	
 	```html
 	/* bad */
