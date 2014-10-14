@@ -18,7 +18,7 @@
 
 	<!-- good -->
 	<div>
-		<p>This is right</p>
+	    <p>This is right</p>
 	</div>
 	```
 
@@ -31,22 +31,26 @@
 
 	<!-- good -->
 	<blockquote>
-	  <p><em>Space</em>, the final frontier.</p>
+	    <p><em>Space</em>, the final frontier.</p>
 	</blockquote>
 	<ul>
-	  <li>Moe</li>
-	  <li>Larry</li>
-	  <li>Curly</li>
+	    <li>Moe</li>
+	    <li>Larry</li>
+	    <li>Curly</li>
 	</ul>
 	<table>
-	  <thead>
-	    <tr>
-	      <th scope="col">Income</th>
-	      <th scope="col">Taxes</th>
-	  <tbody>
-	    <tr>
-	      <td>$ 5.00</td>
-	      <td>$ 4.50</td>
+	    <thead>
+	        <tr>
+	            <th scope="col">Income</th>
+	            <th scope="col">Taxes</th>
+            </tr>
+        </thead>
+	    <tbody>
+            <tr>
+	            <td>$ 5.00</td>
+	            <td>$ 4.50</td>
+            </tr>
+        </tbody>
 	</table>
 	```
 
