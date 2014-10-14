@@ -10,12 +10,12 @@
 - Use tab/4-spaces to indent elements
 
 	```html
-	/* bad */
+	<!-- bad -->
 	<div>
 	  <p>This is wrong</p>
 	</div>
 
-	/* good */
+	<!-- good -->
 	<div>
 		<p>This is right</p>
 	</div>
@@ -24,18 +24,18 @@
 - Use a new line for every block, list, or table element, and indent every such child element
 	
 	```html
-	/* bad */
+	<!-- bad -->
 	<blockquote><p><em>Space</em>, the final frontier.</p></blockquote><ul><li>Moe<li>Larry<li>Curly</ul>
 	<table><thead><tr><th scope="col">Income<th scope="col">Taxes<tbody><tr><td>$ 5.00</td><td>$ 4.50</td></table>
 
-	/* good */
+	<!-- good -->
 	<blockquote>
 	  <p><em>Space</em>, the final frontier.</p>
 	</blockquote>
 	<ul>
-	  <li>Moe
-	  <li>Larry
-	  <li>Curly
+	  <li>Moe</li>
+	  <li>Larry</li>
+	  <li>Curly</li>
 	</ul>
 	<table>
 	  <thead>
@@ -52,12 +52,36 @@
 - Use double quotations for attribute values
 
 	```html 
-	/* bad */
+	<!-- bad -->
 	<button id='nav-toggle' type='button'></button>
 
-	/* good */
+	<!-- good -->
 	<button id="nav-toggle" type="button"></button>
 	```
+
+- Omit type attributes for stylesheets and scripts
+
+	```html
+	<!-- bad -->
+	<link rel="stylesheet" href="//www.google.com/css/maia.css" type="text/css">
+	<script src="//www.google.com/js/gweb/analytics/autotrack.js" type="text/javascript"></script>
+	
+	<!-- good -->
+	<link rel="stylesheet" href="//www.google.com/css/maia.css">
+	<script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+	```
+
+- Use HTML according to its purpose.
+	Use elements (sometimes incorrectly called “tags”) for what they have been created for. For example, use heading elements for headings, p elements for paragraphs, a elements for anchors, etc.
+
+	Using HTML according to its purpose is important for accessibility, reuse, and code efficiency reasons.
+
+	```html 
+	<!-- bad -->
+	<div onclick="goToRecommendations();">All recommendations</div>
+	
+	<!-- good -->
+	<a href="recommendations/">All recommendations</a>
 
 ## <a name="attributes">Attributes</a>
 - Pay attention to element attribute order 
@@ -67,10 +91,10 @@
 	id --> class --> data-bind
 
 	```html
-	/* bad */
+	<!-- bad -->
 	<div data-bind="text: 'This Is Text'" class="test" id="test1"></div>
 
-	/* good */
+	<!-- good -->
 	<div id="test1" class="test" data-bind="text: 'This Is Text'"></div>
 	```
 
