@@ -31,9 +31,7 @@
 
 	<!-- good -->
 	<blockquote>
-	    <p>
-            Space, the final frontier.
-        </p>
+	    <p>Space, the final frontier.</p>
 	</blockquote>
 	<ul>
 	    <li>Moe</li>
