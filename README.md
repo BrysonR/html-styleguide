@@ -1,12 +1,12 @@
 # uShip HTML Style Guide <html>
 
-## <a name='TOC'>Table of Contents</a>
+## <a name="TOC">Table of Contents</a>
 
   1. [Syntax](#syntax)
   1. [Attributes](#attributes)
   1. [License](#license)
 
-## <a name='syntax'>Syntax</a>
+## <a name="syntax">Syntax</a>
 - Use tab/4-spaces to indent elements
 
 	```html
@@ -40,21 +40,31 @@
 	<table>
 	  <thead>
 	    <tr>
-	      <th scope="col">Income
-	      <th scope="col">Taxes
+	      <th scope="col">Income</th>
+	      <th scope="col">Taxes</th>
 	  <tbody>
 	    <tr>
-	      <td>$ 5.00
-	      <td>$ 4.50
+	      <td>$ 5.00</td>
+	      <td>$ 4.50</td>
 	</table>
 	```
 
-## <a name='attributes'>Attributes</a>
+- Use double quotations for attribute values
+
+	```html 
+	/* bad */
+	<button id='nav-toggle' type='button'></button>
+
+	/* good */
+	<button id="nav-toggle" type="button"></button>
+	```
+
+## <a name="attributes">Attributes</a>
 - Pay attention to element attribute order 
 
 	Order of basic attributes in element: 
 
-	id -> class -> data-bind
+	id --> class --> data-bind
 
 	```html
 	/* bad */
@@ -64,17 +74,7 @@
 	<div id="test1" class="test" data-bind="text: 'This Is Text'"></div>
 	```
 
-- Use double quotations for attribute values
-
-	```html 
-	/* bad */
-	<button id='nav-toggle' type='button'>
-
-	/* good */
-	<button id="nav-toggle" type="button">
-	```
-
-## <a name='license'>License</a>
+## <a name="license">License</a>
 
 (The MIT License)
 
